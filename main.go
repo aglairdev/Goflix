@@ -23,7 +23,7 @@ import (
 
 const (
 	AppName = "goflix"
-	Version = "v1.0"
+	Version = "v1.0.0"
 	RepoAPI = "https://api.github.com/repos/aglairdev/goflix/releases/latest"
 
 	// Altere para qualquer cor hex válida hexadecimal
