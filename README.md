@@ -1,6 +1,6 @@
 # goflix ꕤ
 
-Acervo de vídeos no terminal
+Acervo de vídeos no terminal.
 
 ## Instalação
 
@@ -62,8 +62,8 @@ goflix
 O app verifica atualizações ao iniciar. Se houver uma versão nova:
 
 ```
-ꕤ Nova versão disponível: v1.1  (atual: v1.0)
-─────────────────────────────────────────────
+ꕤ Nova versão disponível: v1.0.1  (atual: v1.0.0)
+─────────────────────────────────────────────────
 u: atualizar agora    qualquer tecla: ignorar
 ```
 
@@ -80,7 +80,7 @@ Usuários que instalaram via release receberão o aviso, mas precisarão baixar 
 
 ## Personalização
 
-### Cor accent
+### Cor 
 
 Edite a constante `ColorAccent` no topo de `main.go` (valor hex):
 
@@ -99,7 +99,7 @@ go build -o goflix .
 
 O idioma pode ser alternado com `l` diretamente no app, sem reiniciar.
 
-## Contribuindo com tradução
+## Tradução
 
 Edite `i18n.go` e adicione um novo bloco com a chave do idioma:
 ```go
@@ -115,10 +115,17 @@ Adicione também o nome do idioma em `langLabel`:
 ```
 Use o bloco `"ptbr"` como referência - todas as chaves precisam estar presentes. Abra um PR com o novo idioma.
 
-## Build manual
+## Build 
 
 ```bash
 git clone https://github.com/aglairdev/goflix
 cd goflix
 go build -o goflix .
+```
+
+## Remoção
+
+```bash
+rm ~/go/bin/goflix
+rm -r ~/.config/goflix
 ```
