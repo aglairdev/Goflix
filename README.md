@@ -147,7 +147,8 @@ go build -o goflix .
 
 ```bash
 rm ~/go/bin/goflix
-rm -r ~/.config/goflix
+rm -r ~/.config/goflix #histórico de assistidos, diretórios mapeados
+rm ~/.local/bin/goflix
 ```
 
 ## Licença
